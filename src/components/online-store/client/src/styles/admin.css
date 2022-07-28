@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+.admin_container{
+   margin-top: 18px;
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+.admin_container button{
+   font-family: 'Roboto Slab', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 6px 0;
+   letter-spacing: 1.5px;
+   margin: 12px 20% 0 20%;
+   border-radius: 5px;
+   color: white;
+   background-color: rgb(0, 123, 255);
+   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.805);
+   border: none;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.392);
+}

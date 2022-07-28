@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+.container_brand{
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   font-size: 16px;
+}
+.row_brand{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+}
+.card_brand{
+   padding: 0;
+   margin: 0 10px;
+   max-width: max-content;
+   background: none;
+   border-bottom: 1px solid black;
+   border-radius: 0;
+   box-shadow: none;
+   cursor: pointer;
+}

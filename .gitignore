@@ -1,0 +1,5 @@
+/node_modules
+/src/components/online-store/client/node_modules
+/src/components/online-store/server/node_modules
+/src/components/chess/node_modules
+secret

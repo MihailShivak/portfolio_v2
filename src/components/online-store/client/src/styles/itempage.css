@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+.container_item_page{
+   margin-top: 20px;
+   display: grid;
+   grid-template-rows: auto max-content;
+}
+.first_row{
+   display: grid;
+   grid-template-columns: 280px 200px 300px;
+}
+.col_item_rating{
+   display: grid;
+   grid-template-rows: 1fr min-content;
+}
+.item_rating{
+   margin-left: 100px;
+   margin-top: 5px;
+   display: grid;
+   grid-template-columns: min-content max-content;
+   font-size: 22px;
+   cursor: pointer;
+}
+.item_rating h1{
+   margin-top: -10px;
+   margin-left: 3px;
+   font-size: 45px;
+}
+.col_about_item{
+   min-width: 200px;
+   font-family: 'Roboto Slab', sans-serif;
+}
+.row_about_item{
+   display: grid;
+   grid-template-rows: auto max-content;
+}
+.row_about_item h2{
+   text-align: center;
+   font-size: 24px;
+   font-weight: 500;
+}
+.short_description{
+   margin-top: 10px;
+   text-align: left;
+   font-size: 12px;
+   letter-spacing: 3px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.634);
+}
+.col_price{
+}
+.card_price{
+   margin-top: 50px;
+   text-align: center;
+   font-family: 'Roboto Slab', sans-serif;
+}
+.card_price h3{
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: 1.5px;
+}
+.button_price{
+   margin-top: 10px;
+   letter-spacing: 1px;
+   color: rgba(0, 0, 0, 0.689);
+   font-size: 16px;
+   background: none;
+   border-radius: 5px;
+   padding: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.304);
+}
+.description_row{
+   border-top: 2px solid rgba(0, 0, 0, 0.289);
+   margin-top: 5px;
+}
+.description{
+   margin-top: 3px;
+   margin-left: 15px;
+   font-family: 'Roboto Slab', sans-serif;
+   text-align: left;
+   letter-spacing: 1px;
+}
+.description h1{
+   font-size: 24px;
+}
+.description p{
+   font-size: 12px;
+   margin-top: 10px;
+   font-weight: 400;
+}

@@ -1,0 +1,51 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.App{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.board{
+   width: calc(64px * 8);
+   height: calc(64px * 8);
+   display: flex;
+   flex-wrap: wrap;
+   border: 8px solid rgb(44, 21, 0);
+   border-radius: 3px;
+}
+.cell{
+   width: 64px;
+   height: 64px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.black{
+   background-color: rgb(96, 63, 32);
+}
+.white{
+   background-color: rgb(255, 222, 182);
+}
+.cell img{
+   width: 48px;
+   height: 48px;
+   position: relative;
+}
+.selected{
+   border-radius: 5px;
+   box-shadow: 0px 0px 3px 2px rgb(66, 255, 91);
+   z-index: 1;
+}
+.available{
+   height: 10px;
+   width: 10px;
+   border-radius: 50%;
+   background-color: rgb(0, 178, 0);
+}
+.lost{
+   margin-left: 5px;
+}

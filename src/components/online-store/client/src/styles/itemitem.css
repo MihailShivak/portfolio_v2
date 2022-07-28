@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+.item_col{
+   font-size: 12px;
+   margin-bottom: 10px;
+   margin-left: -40px;
+}
+.item_card{
+   width: 250px;
+   height: min-content;
+   padding: 5px 0 0 0;
+   background: none;
+   box-shadow: none;
+   cursor: pointer;
+   border: 1px solid rgba(0, 0, 0, 0.164);
+   margin-right: 180px;
+}
+.item_name_rating{
+   font-family: 'Roboto Slab';
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 10px;
+   margin-left: 10px;
+   padding: 0 5px;
+   display: grid;
+   grid-template-columns: 1fr auto;
+}
+.rating{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.rating div{
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 0px;
+}
+.star{
+   margin-top: 5px;
+   margin-left: 2px;
+}
+.item_card_img{
+   width: 245px;
+   height: 200px;
+}
