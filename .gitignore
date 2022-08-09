@@ -1,2 +1,4 @@
 /node_modules
 /back/node_modules
+/front/components/chess/node_modules
+/front/components/online-store/node_modules
